@@ -9,10 +9,12 @@ get_header();
 ?>
 
 
-  <div class="article"><h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-    <p><?php the_content(); ?></p></div>
+  <article class="post">
+    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    <p><?php the_content(); ?></p>
+  </article>
 
-<?php 
+<?php   
   endwhile;
 
   else : 
