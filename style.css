@@ -51,6 +51,8 @@ article.post {
 /*.site-nav ul li:last-of-type {
   margin-right: 0;
 }*/
-.site-nav .menu-header {
-  background: red;
+.site-header nav a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
 }
