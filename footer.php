@@ -5,7 +5,7 @@
       <?php 
 
           $args = array(
-            'theme_location' => 'footer'
+            'theme_location' => 'footer-nav'
           );
 
         ?>

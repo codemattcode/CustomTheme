@@ -9,3 +9,8 @@
 add_action( 'wp_enqueue_scripts', 'custom_wp_resources' );
 
 
+// Navigation Menus
+register_nav_menus(array(
+  'header-nav' => __( 'Header Nav'),
+  'footer-nav' => __( 'Footer Nav'),
+));
