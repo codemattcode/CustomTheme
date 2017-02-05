@@ -1,6 +1,6 @@
 <footer class="site-footer">
 
-  <div class="site-nav">
+  <div class="site-nav footer">
       
       <?php 
 
