@@ -1,6 +1,6 @@
 <footer class="site-footer">
 
-  <div class="site-nav menu-footer">
+  <nav class="site-nav">
       
       <?php 
 
@@ -12,7 +12,7 @@
 
         <?php wp_nav_menu(  $args  ) ?>
         
-    </div>
+    </nav>
 
   <p><?php bloginfo('name'); ?>
     - &copy; <?php echo date('Y') ?>
