@@ -19,7 +19,7 @@
     <h3><?php bloginfo('description') ?></h3>
 
 
-    <div class="site-nav header">
+    <div class="site-nav menu-header">
       
         <?php 
 
