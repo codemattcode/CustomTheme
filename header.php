@@ -18,6 +18,13 @@
     <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
     <h3><?php bloginfo('description') ?></h3>
 
+
+    <div class="site-nav">
+      <ul>
+        <?php wp_nav_menu() ?>
+      </ul>  
+    </div>
+
       </div>
   </header>
 <div class="wrapper">
