@@ -20,9 +20,9 @@
 
 
     <div class="site-nav">
-      <ul>
-        <?php wp_nav_menu() ?>
-      </ul>  
+      
+        <?php wp_nav_menu(  $args  ) ?>
+      
     </div>
 
       </div>
