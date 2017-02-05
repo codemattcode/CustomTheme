@@ -2,7 +2,13 @@
 
   <div class="site-nav">
       
-        <?php wp_nav_menu() ?>
+      <?php 
+
+          $args = array(
+            'theme_location' => 'footer'
+          );
+
+        ?>
         
     </div>
 
