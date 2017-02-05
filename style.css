@@ -56,3 +56,11 @@ article.post {
   display: block;
   padding: 10px 0;
 }
+.site-footer nav a {
+  text-decoration: none;
+  display: block;
+}
+.copyright {
+  display: block;
+  width: 100%;
+}
