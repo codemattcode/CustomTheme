@@ -19,7 +19,7 @@
     <h3><?php bloginfo('description') ?></h3>
 
 
-    <div class="site-nav menu-header">
+    <nav class="site-nav">
       
         <?php 
 
@@ -31,7 +31,7 @@
 
         <?php wp_nav_menu(  $args  ) ?>
       
-    </div>
+    </nav>
 
       </div>
   </header>
