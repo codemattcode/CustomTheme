@@ -33,6 +33,6 @@
       
     </nav>
 
-      </div>
+      </div><!-- /wrapper -->
   </header>
 <div class="wrapper">
