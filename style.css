@@ -48,7 +48,6 @@ article.post {
   list-style: none;
   float: left;
   margin-right: 10px;
-  border: 1px solid red;
 }
 /*.site-nav ul li:last-of-type {
   margin-right: 0;
@@ -65,8 +64,10 @@ nav.site-nav a {
 .copyright {
   /*padding: 30px 0;*/
   float: none;
+  clear: both;
 }
 .site-footer {
   margin-top: 30px;
   border-top: 1px solid #999;
 }
+
