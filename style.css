@@ -49,6 +49,10 @@ article.post {
   float: left;
   margin-right: 10px;
 }
+.site-nav ul li.current-menu-item a:link,
+.site-nav ul li.current-menu-item a:visited {
+  color: red;
+}
 /*.site-nav ul li:last-of-type {
   margin-right: 0;
 }*/
