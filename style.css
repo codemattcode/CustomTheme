@@ -79,3 +79,8 @@ nav.site-nav a {
   border-right: 1px dotted #BBB;
 }
 
+
+/* page layout */
+article.page h2 {
+  color: purple;
+}
