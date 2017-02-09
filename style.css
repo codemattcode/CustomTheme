@@ -81,8 +81,11 @@ nav.site-nav a {
   border-right: 1px dotted #BBB;
 }
 
+.masthead {
+  background: red;
+}
 
-/* page layout */
+/* pages layout */
 article.page h2 {
   color: purple;
 }
