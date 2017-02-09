@@ -27,9 +27,9 @@
 
         <?php wp_nav_menu(  $args  ) ?>
       
-    </nav>
+        </nav>
 
-    <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+    <h2><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h2>
     <h3><?php bloginfo('description') ?></h3>
 
 

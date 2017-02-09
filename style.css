@@ -81,7 +81,10 @@ nav.site-nav a {
   border-right: 1px dotted #BBB;
 }
 
-
+h2 {
+  display: block;
+  padding: 100px;
+}
 /* page layout */
 article.page h2 {
   color: purple;
