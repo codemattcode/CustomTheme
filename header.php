@@ -15,11 +15,7 @@
     
       <div class="wrapper">
 
-    <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-    <h3><?php bloginfo('description') ?></h3>
-
-
-    <nav class="site-nav">
+        <nav class="site-nav">
       
         <?php 
 
@@ -32,6 +28,19 @@
         <?php wp_nav_menu(  $args  ) ?>
       
     </nav>
+
+    <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+    <h3><?php bloginfo('description') ?></h3>
+
+
+    <h3>
+    <?php if (is_page(about)) { ?>
+    
+      This is a great big test of this function!!
+    
+    <?php } ?>
+    </h3>
+
 
       </div><!-- /wrapper -->
   </header>
