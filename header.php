@@ -29,8 +29,9 @@
       
         </nav>
 
-    <h2><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h2>
-    <h3><?php bloginfo('description') ?></h3>
+
+    <div class="masthead"><h2><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h2>
+        <h3><?php bloginfo('description') ?></h3></div>
 
 
     <h3>
