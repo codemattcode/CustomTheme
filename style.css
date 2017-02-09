@@ -36,8 +36,13 @@ article.post {
 
 
 /* Navigation Menus */
+.site-nav {
+  height: 30px;
+  clear: both;
+}
 .site-nav ul {
-  margin: 0;
+  margin: 15px;
+  margin-left: 0;
   padding: 0;
 }
 .site-nav ul:before, site-nav ul:after {
@@ -67,6 +72,8 @@ nav.site-nav a {
   text-decoration: none;
   display: block;
 }
+
+
 .copyright {
   padding: 10px 0;
   float: none;
