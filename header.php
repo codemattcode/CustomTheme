@@ -10,12 +10,7 @@
 
 
 
-<!-- site header -->
-  <header class="site-header">
-    
-      <div class="wrapper">
-
-        <nav class="site-nav">
+    <nav class="site-nav">
       
         <?php 
 
@@ -27,11 +22,15 @@
 
         <?php wp_nav_menu(  $args  ) ?>
       
-        </nav>
+    </nav>
 
+<!-- site header -->
+  <header class="site-header">
+    
+      <div class="wrapper">
 
-    <div class="masthead"><h2><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h2>
-        <h3><?php bloginfo('description') ?></h3></div>
+    <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+        <h2><?php bloginfo('description') ?></h2>
 
 
     <h3>
