@@ -11,7 +11,7 @@
 
 
     <nav class="site-nav">
-      
+      <div class="wrapper">
         <?php 
 
           $args = array(
@@ -21,7 +21,7 @@
         ?>
 
         <?php wp_nav_menu(  $args  ) ?>
-      
+      </div>
     </nav>
 
 <!-- site header -->
