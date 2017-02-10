@@ -36,7 +36,7 @@
     <h3>
     <?php if (is_page(about)) { ?>
     
-      This is a great big test of this function!!
+      is_page function
     
     <?php } ?>
     </h3>
