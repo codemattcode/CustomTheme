@@ -12,10 +12,12 @@ get_header();
 ?>
 
 
-  <article class="post page">
+  <!-- <article class="post page">
     <h2><?php the_title(); ?></h2>
     <p><?php the_content(); ?></p>
-  </article>
+  </article> -->
+
+<h5>Template page = 'special-template'</h5>
 
 <?php   
   endwhile;
