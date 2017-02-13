@@ -15,13 +15,15 @@ get_header();
   </article>
  -->
 
- <div class="port-title">
-   <h2><?php the_title(); ?></h2>
- </div>
-
- <div class="port-content">
-   <p><?php the_content(); ?></p>
- </div>
+<div class="row">
+  <div class="col-6">
+    <h2><?php the_title(); ?></h2>
+  </div>
+ 
+  <div class="col-6 test">
+    <p><?php the_content(); ?></p>
+  </div>
+</div>
 
 
 

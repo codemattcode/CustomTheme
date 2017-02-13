@@ -1,3 +1,5 @@
+@import 'modest-grid.css';
+
 /*
 Theme Name: CustomTheme
 Author: codemattcode
@@ -8,6 +10,15 @@ Version: 1.0
   margin: 0;
   padding: 0;
 }
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 body {
   font-family: arial;
   background: #fff5e4;
@@ -20,11 +31,11 @@ a:visited {
 p {
   line-height: 1.65em;
 }
-.wrapper {
+/*.wrapper {
   max-width: 1140px;
   width: 90%;
   margin: auto;
-}
+}*/
 header {
   background: #c9dcff;
   padding: 30px 0;
@@ -99,7 +110,6 @@ article.page h2 {
 
 
 /* page template */
-.port-title {
-  padding: 40px;
-  padding-left: 0;
+.test {
+  border: 1px solid red;
 }
