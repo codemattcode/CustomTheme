@@ -96,3 +96,10 @@ nav.site-nav a {
 article.page h2 {
   color: purple;
 }
+
+
+/* page template */
+.port-title {
+  padding: 40px;
+  padding-left: 0;
+}
