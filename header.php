@@ -34,7 +34,7 @@
 
 
     <h3>
-    <?php if (is_page(about)) { ?>
+    <?php if (is_page('about')) { ?>
     
       is_page function
     
