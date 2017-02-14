@@ -1,2 +1,3 @@
-``` <?php the_content('Read more of this article &raquo;'); ?>
+``` 
+<?php the_content('Read more of this article &raquo;'); ?>
 ```
