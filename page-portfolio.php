@@ -18,10 +18,11 @@ get_header();
 <div class="row">
   <div class="col-6">
     <h2><?php the_title(); ?></h2>
+    <p><?php the_content(); ?></p>
   </div>
  
   <div class="col-6 test">
-    <p><?php the_content(); ?></p>
+    <p><h5>'Special Page'</h5></p>
   </div>
 </div>
 
