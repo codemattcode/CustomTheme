@@ -11,7 +11,7 @@ get_header();
 
   <article class="post">
     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-    <p><?php the_content(); ?></p>
+    <p><?php the_content('Read More of this article &raquo;'); ?></p>
   </article>
 
 <?php   
