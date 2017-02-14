@@ -14,7 +14,7 @@ get_header();
 
   <!-- <article class="post page">
        </article> -->
-<h1 class="template">Special-template</h1>
+<h1 class="template-title">Special-template</h1>
 
 <h2><?php the_title(); ?></h2>
 
