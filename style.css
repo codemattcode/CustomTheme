@@ -109,7 +109,14 @@ article.page h2 {
 }
 
 
-/* page template */
+/* SPECIAL PAGE */
 .test {
   border: 1px solid red;
 }
+
+/* TEMPLATE */
+h1.template {
+  color: red;
+  margin-bottom: 20px;
+}
+
