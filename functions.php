@@ -14,3 +14,11 @@ register_nav_menus(array(
   'header-nav' => __( 'Header Navigation'),
   'footer-nav' => __( 'Footer Navigation'),
 ));
+
+
+// Custom Excerpt wordcount length
+
+function custom_excerpt_wordcount() {
+  return 25;
+}
+add_filter('excerpt_length', 'custom_excerpt_wordcount');
