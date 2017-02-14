@@ -18,7 +18,7 @@ get_header();
 
 <h2><?php the_title(); ?></h2>
 
-<p>This is a special template. It is selected in the WP dashboard under the pages section and from a drop down menu on the right hand side labelled 'template'</p>
+<p class="template">This is a special template. It is selected in the WP dashboard under the pages section and from a drop down menu on the right hand side labelled 'template'</p>
 
 <p><?php the_content(); ?></p>
 

@@ -123,4 +123,7 @@ h1.template {
   color: red;
   margin-bottom: 20px;
 }
-
+.template {
+  border: 1px solid red;
+  padding: 30px;
+}
