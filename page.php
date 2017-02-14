@@ -11,7 +11,9 @@ get_header();
 
   <article class="post">
     <h2 class="page-title"><?php the_title(); ?></h2>
-    <p class="page-copy"><?php the_content(); ?></p>
+    <div class="page-copy">
+    <p><?php the_content(); ?></p>
+    </div>
   </article>
 
 <?php   

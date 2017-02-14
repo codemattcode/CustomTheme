@@ -29,10 +29,11 @@ a:link,
 a:visited {
   color: #808080;
 }
+
 p {
   line-height: 1.65em;
-  /*color: green;*/
 }
+
 /*.wrapper {
   max-width: 1140px;
   width: 90%;
@@ -111,8 +112,8 @@ article.post {
 h2.page-title {
   color: purple;
 }
-p.page-copy {
-  font-size: 3em;
+.page-copy {
+  color: blue;
 }
 
 
