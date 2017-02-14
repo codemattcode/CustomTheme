@@ -31,6 +31,7 @@ a:visited {
 }
 p {
   line-height: 1.65em;
+  /*color: green;*/
 }
 /*.wrapper {
   max-width: 1140px;
@@ -110,8 +111,8 @@ article.post {
 h2.page-title {
   color: purple;
 }
-.page-copy {
-  color: blue;
+p.page-copy {
+  font-size: 3em;
 }
 
 

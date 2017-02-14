@@ -9,9 +9,9 @@ get_header();
 ?>
 
 
-  <article class="post page-copy">
+  <article class="post">
     <h2 class="page-title"><?php the_title(); ?></h2>
-    <p><?php the_content(); ?></p>
+    <p class="page-copy"><?php the_content(); ?></p>
   </article>
 
 <?php   
