@@ -108,6 +108,10 @@ article.page h2 {
   color: purple;
 }
 
+/* STANDARD PAGE */
+p.page {
+  color: blue;
+}
 
 /* SPECIAL PAGE */
 .test {

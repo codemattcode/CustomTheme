@@ -11,7 +11,7 @@ get_header();
 
   <article class="post page">
     <h2><?php the_title(); ?></h2>
-    <p><?php the_content(); ?></p>
+    <p class="page"><?php the_content(); ?></p>
   </article>
 
 <?php   
