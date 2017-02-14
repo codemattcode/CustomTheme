@@ -18,10 +18,7 @@ get_header();
 
 <h2><?php the_title(); ?></h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.</p>
+<p>This is a special template. It is selected in the WP dashboard under the pages section and from a drop down menu on the right hand side labelled 'template'</p>
 
 <p><?php the_content(); ?></p>
 
