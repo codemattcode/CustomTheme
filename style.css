@@ -110,7 +110,7 @@ article.post {
 article.page h2 {
   color: purple;
 }
-article p.page {
+article.page p.page-copy {
   color: blue;
 }
 
