@@ -42,9 +42,6 @@ header {
   padding: 30px 0;
   margin-bottom: 20px;
 }
-article.post {
-  margin: 30px 0;
-}
 
 /* Navigation Menus */
 .site-nav {
@@ -103,20 +100,32 @@ nav.site-nav a {
   background: red;
 }
 
-/* pages layout */
+
+
+
+/* STANDARD PAGE */
+article.post {
+  margin: 30px 0;
+}
 article.page h2 {
   color: purple;
 }
-
-/* STANDARD PAGE */
-p.page {
+article p.page {
   color: blue;
 }
+
+
+
 
 /* SPECIAL PAGE */
 .test {
   border: 1px solid red;
 }
+
+
+
+
+
 
 /* TEMPLATE */
 h1.template-title {
