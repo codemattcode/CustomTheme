@@ -19,6 +19,6 @@ register_nav_menus(array(
 // Custom Excerpt wordcount length
 
 function custom_excerpt_wordcount() {
-  return 25;
+  return 75;
 }
 add_filter('excerpt_length', 'custom_excerpt_wordcount');
