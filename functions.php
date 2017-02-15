@@ -29,7 +29,8 @@ register_nav_menus(array(
   add_theme_support('post-thumbnails');
   // width, height, hard-crop
   add_image_size('small-thumbnail', 280, 220, true);
-  add_image_size('banner-image', 920, 210, true);
+  // width, height, image positioning
+  add_image_size('banner-image', 920, 210, array('left', 'top'));
 }
 
 
