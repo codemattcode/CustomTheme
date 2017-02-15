@@ -16,7 +16,6 @@ function custom_excerpt_wordcount() {
 }
 add_filter('excerpt_length', 'custom_excerpt_wordcount');
 
-
 // Theme setup
 function customTheme_setup() {
 
