@@ -17,7 +17,7 @@ get_header();
 
 <!-- add feature image thumbnail -->
     
-    <div class="f-image"><?php the_post_thumbnail('small-thumbnail'); ?></div>
+    <div class="post-thumbnail"><?php the_post_thumbnail('small-thumbnail'); ?></div>
 </div> 
 
     <div class="col-6">

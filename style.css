@@ -110,11 +110,11 @@ article.page {
 a.post-title {
   color: green;
 }
-/*.has-image {
-  
-}*/
+.has-image {
+
+}
 /* FEATURED IMAGE */
-.f-image {
+.post-thumbnail {
   margin-top: 30px;
 }
 
