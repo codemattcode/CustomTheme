@@ -10,14 +10,16 @@ get_header();
 
 
 <article class="post">
-<!-- add post title link / title -->
-    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-
-  <div class="row">
+<div class="row">
     <div class="col-6">
+<!-- add post title link / title -->
+    <h2><a class="post-title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+
 <!-- add feature image thumbnail -->
-    <?php the_post_thumbnail('small-thumbnail'); ?>
+    
+    <div class="f-image"><?php the_post_thumbnail('small-thumbnail'); ?></div>
 </div> 
+
     <div class="col-6">
     <p><?php echo get_the_excerpt(); ?>
       <a href="<?php the_permalink(); ?>">Read More &raquo;</a>
