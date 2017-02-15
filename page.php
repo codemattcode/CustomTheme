@@ -9,7 +9,7 @@ get_header();
 ?>
 
 
-  <article class="post">
+  <article class="page">
     <h2 class="page-title"><?php the_title(); ?></h2>
     <div class="page-copy">
     <p><?php the_content(); ?></p>
