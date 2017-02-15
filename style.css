@@ -112,8 +112,8 @@ a.post-title {
   color: green;
 }
 
-/* conditional logic */
-.remove-title-push {
+/* conditional logic add this class to the title link tag */
+a.remove-title-push {
   color: red;
 }
 
