@@ -14,7 +14,7 @@ get_header();
 <div class="row">
     <div class="col-6">
 <!-- add post title link / title -->
-    <h2><a class="post-title <?php if ( has_post_thumbnail() ) { ?>remove-title-push <?php } ?>" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    <h2><a class="post-title <?php if ( has_post_thumbnail() ) { ?>title-red <?php } ?>" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
 <!-- add feature image thumbnail -->
     
