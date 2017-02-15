@@ -10,6 +10,7 @@ get_header();
 
 
 <article class="post">
+<!-- add post title link / title -->
     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
   <div class="row">
