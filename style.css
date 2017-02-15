@@ -107,8 +107,10 @@ nav.site-nav a {
 a.post-title {
   color: green;
 }
-
-
+/* FEATURED IMAGE */
+.f-image {
+  margin-top: 30px;
+}
 
 /* SINGLE POSTS */
 
