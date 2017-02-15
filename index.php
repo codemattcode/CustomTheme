@@ -12,6 +12,8 @@ get_header();
   <article class="post">
     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
+    <?php the_post_thumbnail(); ?>
+
     <p><?php echo get_the_excerpt(); ?>
       <a href="<?php the_permalink(); ?>">Read More &raquo;</a>
     </p>
