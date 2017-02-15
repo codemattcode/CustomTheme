@@ -27,6 +27,9 @@ register_nav_menus(array(
 
   // Add featured image support
   add_theme_support('post-thumbnails');
+  // width, height, hard-crop
+  add_image_size('small-thumbnail', 180, 120, true);
+  add_image_size('banner-image', 920, 210, true);
 }
 
 
