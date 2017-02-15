@@ -12,6 +12,7 @@ get_header();
   <article class="post">
     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
+<!-- add feature image thumbnail -->
     <?php the_post_thumbnail('small-thumbnail'); ?>
 
     <p><?php echo get_the_excerpt(); ?>
