@@ -9,7 +9,7 @@ get_header();
 ?>
 
 
-<article class="post">
+<article class="post has-image">
 <div class="row">
     <div class="col-6">
 <!-- add post title link / title -->
