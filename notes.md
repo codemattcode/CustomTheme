@@ -25,5 +25,8 @@ then add the following code to functions.php (then create corresponding file e.g
 ```
 add_theme_support('post-formats', array('aside', 'gallery', 'link', 'chat', 'image', 'quote', 'status', 'video')); 
 ```
-
+then add the following code to each page that requires it (e.g single.php or search.php or archive.php etc)
+```
+get_template_part('content', get_post_format());
+```
 
