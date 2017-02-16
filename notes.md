@@ -30,5 +30,13 @@ then add the following code to each page that requires it (e.g single.php or sea
 get_template_part('content', get_post_format());
 ```
 
-
-
+#### add this to index.php if you include a sidebar
+```
+<?php get_sidebar(); ?>
+```
+then create a sidebar.php file and add the following code
+```
+<div class="whatever">
+<?php dynamic_sidebar('sidebar1'); ?>
+</div>
+```
