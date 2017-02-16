@@ -40,6 +40,4 @@ then create a sidebar.php file and add the following code
 <?php dynamic_sidebar('sidebar1'); ?>
 </div>
 ```
-```
-<div class="another"><?php dynamic_sidebar('')?></div>
-```
+
