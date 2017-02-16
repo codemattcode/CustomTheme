@@ -16,5 +16,14 @@
   } ?>
 ```
 
+#### to add post formats
+add to index.php
+```
+get_template_part('content', get_post_format());  
+```
+add to functions.php
+```
+add_theme_support('post-formats', array('aside', 'gallery', 'link')); 
+```
 
 

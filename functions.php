@@ -19,6 +19,7 @@ add_filter('excerpt_length', 'custom_excerpt_wordcount');
 // Theme setup
 function customTheme_setup() {
 
+
   // Navigation Menus
 register_nav_menus(array(
   'header-nav' => __( 'Header Navigation'),
@@ -34,4 +35,10 @@ register_nav_menus(array(
 }
 
 
+  // Add post format support
+  // add_theme_support('post-formats', array('aside', 'gallery', 'link'));
+
+
+
+// initialise theme
 add_action('after_setup_theme', 'customTheme_setup');
