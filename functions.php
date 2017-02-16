@@ -42,3 +42,14 @@ register_nav_menus(array(
 
 // initialise theme
 add_action('after_setup_theme', 'customTheme_setup');
+
+
+// Add widget locations
+function customWidgetsInit() {
+  register_sidebar( array(
+      'name' => 'Widget One',
+      'id' => 'widget1'
+    ));
+}
+
+add_action('widgets_init', 'customWidgetsInit');
