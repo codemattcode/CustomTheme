@@ -26,7 +26,13 @@ get_header();
   </div>
  
   <div class="col-6 test">
-    <p>hard coded in the php file</p>
+  
+    <?php if (is_active_sidebar('widget1')) : ?>
+    <div class="widget">
+      <?php dynamic_sidebar('widget1'); ?>
+    </div>
+    <?php endif; ?>
+    
   </div>
 </div>
 
