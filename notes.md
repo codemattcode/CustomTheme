@@ -23,7 +23,7 @@ get_template_part('content', get_post_format());
 ```
 then add the following code to functions.php (then create corresponding file e.g 'content-aside.php')
 ```
-add_theme_support('post-formats', array('aside', 'gallery', 'link')); 
+add_theme_support('post-formats', array('aside', 'gallery', 'link', 'chat', 'image', 'quote', 'status', 'video')); 
 ```
 
 
