@@ -30,3 +30,5 @@ then add the following code to each page that requires it (e.g single.php or sea
 get_template_part('content', get_post_format());
 ```
 
+
+
