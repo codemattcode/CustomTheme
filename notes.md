@@ -41,5 +41,5 @@ then create a sidebar.php file and add the following code
 </div>
 ```
 ```
-<div class="another"><?php dynamic_sidebar()?></div>
+<div class="another"><?php dynamic_sidebar('')?></div>
 ```
