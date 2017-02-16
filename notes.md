@@ -17,11 +17,11 @@
 ```
 
 #### to add post formats
-add to index.php
+add the following code to index.php
 ```
 get_template_part('content', get_post_format());  
 ```
-add to functions.php
+then add the following code to functions.php (then create corresponding file e.g 'content-aside.php')
 ```
 add_theme_support('post-formats', array('aside', 'gallery', 'link')); 
 ```
