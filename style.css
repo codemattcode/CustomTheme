@@ -141,9 +141,16 @@ h2.page-title {
 .page-copy {
   color: blue;
 }
+
+/* SUB MENU NAVIGATION */
 .page-sub_menu {
   font-size: 1.2em
 }
+span.parent-link {
+  color: red;
+}
+
+
 
 
 

@@ -15,6 +15,13 @@ get_header();
     <!-- add sub nav elements -->
 
     <div class="page-sub_menu">
+
+        <span class="parent-link">
+
+          <a href="<?php echo get_the_permalink(get_top_ancestor_id()); ?>"><?php echo get_the_title(get_top_ancestor_id()); ?></a>
+
+        </span>
+
         <?php 
         
           $args = array(
