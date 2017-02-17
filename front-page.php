@@ -1,1 +1,26 @@
-hello world!
+<?php  
+  
+get_header();
+
+  if (have_posts()) :
+    while (have_posts()) : the_post(); 
+?>
+
+
+this is content in the middle
+
+<?php   
+  endwhile;
+
+  else : 
+    echo '<p>Page Not Found</p>';
+
+  endif;
+
+
+get_footer();
+
+?>
+
+
+
