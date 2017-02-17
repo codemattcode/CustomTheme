@@ -14,7 +14,7 @@ get_header();
 
     <!-- add sub nav elements -->
 
-    <div class="page-sub_menu">
+    <nav class="page-sub_menu">
 
         <span class="parent-link">
 
@@ -31,7 +31,7 @@ get_header();
         ?>
         
         <?php wp_list_pages($args); ?>      
-    </div>
+    </nav>
 
     </div><!-- /col-12 -->
     </div><!-- /row -->
