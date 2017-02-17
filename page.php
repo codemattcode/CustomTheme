@@ -18,7 +18,7 @@ get_header();
         <?php 
         
           $args = array(
-              'child_of' => $post->ID,
+              'child_of' => get_top_ancestor_id(),
               'title_li' => ''
             );
         ?>
