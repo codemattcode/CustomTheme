@@ -18,7 +18,8 @@ get_header();
         <?php 
         
           $args = array(
-              'child_of' => $post->ID
+              'child_of' => $post->ID,
+              'title_li' => ''
             );
         ?>
         
