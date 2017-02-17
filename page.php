@@ -10,6 +10,10 @@ get_header();
 
 
   <article class="page">
+
+    <!-- add sub nav elements -->
+    <?php wp_list_pages(); ?>
+
     <h2 class="page-title"><?php the_title(); ?></h2>
     <div class="page-copy">
     <p><?php the_content(); ?></p>
