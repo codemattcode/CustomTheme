@@ -22,7 +22,7 @@ get_header();
 
         </span>
 
-        <ul>
+        <ul class="sub-menu-links">
           <?php 
           
             $args = array(
