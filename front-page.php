@@ -19,8 +19,11 @@ get_header();
   else : 
     echo '<p>Page Not Found</p>';
 
-  endif;
+  endif; ?>
 
+loud noises!!!
+
+<?php 
 
 get_footer();
 
