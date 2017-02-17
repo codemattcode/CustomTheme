@@ -18,9 +18,9 @@ video, figure, figcaption, li {
   display: block;
 }
 
-li {
+/*li {
   float: left;
-}
+}*/
 
 strong {
   font-weight: bold;
