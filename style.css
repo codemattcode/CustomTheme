@@ -147,7 +147,8 @@ h2.page-title {
   font-size: 1.2em
 }
 span.parent-link {
-  color: red;
+  float: left;
+  margin-right: 10px;
 }
 
 

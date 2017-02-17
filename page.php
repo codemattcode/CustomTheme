@@ -14,7 +14,7 @@ get_header();
 
     <!-- add sub nav elements -->
 
-    <nav class="page-sub_menu">
+    <nav class="site-nav">
 
         <span class="parent-link">
 
@@ -22,15 +22,17 @@ get_header();
 
         </span>
 
-        <?php 
-        
-          $args = array(
-              'child_of' => get_top_ancestor_id(),
-              'title_li' => ''
-            );
-        ?>
-        
-        <?php wp_list_pages($args); ?>      
+        <ul>
+          <?php 
+          
+            $args = array(
+                'child_of' => get_top_ancestor_id(),
+                'title_li' => ''
+              );
+          ?>
+          
+          <?php wp_list_pages($args); ?>      
+        </ul>
     </nav>
 
     </div><!-- /col-12 -->
