@@ -8,7 +8,6 @@ get_header();
     while (have_posts()) : the_post(); 
 ?>
 
-  <div class="wrapper">
   <div class="row">
     <div class="col-12">
     <article class="page">
@@ -19,7 +18,7 @@ get_header();
         <?php 
         
           $args = array(
-              'child of' => $post->ID
+              'child_of' => $post->ID
             );
         ?>
         
@@ -39,7 +38,7 @@ get_header();
     </div>
   </article>
 
-  </div><!-- /wrapper -->
+  
 
 
 <?php   
