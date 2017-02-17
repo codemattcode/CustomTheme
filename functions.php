@@ -26,6 +26,20 @@ register_nav_menus(array(
   'footer-nav' => __( 'Footer Navigation'),
 ));
 
+  // Sub Menu Navigation
+function get_top_ancestor_id() {
+
+  global $post;
+  
+  if($post->post_parent) {
+    $ancestors = array_reverse(get_post_ancestors($post->ID));
+    return $ancestors[0]; 
+  }
+
+  return $post->ID;
+
+}
+
   // Add featured image support
   add_theme_support('post-thumbnails');
   // width, height, hard-crop
