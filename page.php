@@ -8,26 +8,39 @@ get_header();
     while (have_posts()) : the_post(); 
 ?>
 
-
-  <article class="page">
+  <div class="wrapper">
+  <div class="row">
+    <div class="col-12">
+    <article class="page">
 
     <!-- add sub nav elements -->
 
-    <div class="about-sub_menu"><?php 
+    <div class="page-sub_menu">
+        <?php 
+        
           $args = array(
               'child of' => $post->ID
             );
         ?>
-          
+        
+        <?php wp_list_pages($args); ?>      
     </div>
 
-    <?php wp_list_pages($args); ?>
+    </div><!-- /col-12 -->
+    </div><!-- /row -->
+    
 
-    <h2 class="page-title"><?php the_title(); ?></h2>
+    <div>
+      <h2 class="page-title"><?php the_title(); ?></h2>
+    </div>
+    
     <div class="page-copy">
     <p><?php the_content(); ?></p>
     </div>
   </article>
+
+  </div><!-- /wrapper -->
+
 
 <?php   
   endwhile;
