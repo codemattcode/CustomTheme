@@ -12,7 +12,12 @@ get_header();
     <div class="col-12">
     <article class="page">
 
-    <!-- add sub nav elements -->
+    <?php 
+
+      if (has_subMenu() OR $post->post_parent > 0 ) { ?>
+
+
+      <!-- add sub nav elements -->
 
     <nav class="site-nav">
 
@@ -34,6 +39,9 @@ get_header();
           <?php wp_list_pages($args); ?>      
         </ul>
     </nav>
+
+    <?php } ?>
+
 
     </div><!-- /col-12 -->
     </div><!-- /row -->

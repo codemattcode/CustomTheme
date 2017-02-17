@@ -66,8 +66,11 @@ header {
   float: left;
   margin-right: 10px;
 }
+/* .current_page_item and .current-page-ancestor are wordpress features s*/
 .site-nav ul li.current-menu-item a:link,
-.site-nav ul li.current-menu-item a:visited {
+.site-nav ul li.current-menu-item a:visited,
+.site-nav ul li.current-page-ancestor a:link,
+.site-nav ul li.current-page-ancestor a:visited {
   color: red;
 }
 /*.site-nav ul li:last-of-type {
