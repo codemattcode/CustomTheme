@@ -72,7 +72,7 @@ add_action('after_setup_theme', 'customTheme_setup');
 function customWidgetsInit() {
   register_sidebar( array(
       'name' => 'Widget One',
-      'id' => 'myWidget',
+      'id' => 'widget1',
       'before_widget' => '<div class="widget-item">',
       'after_widget' => '</div>',
       'before_title' => '<h4 class="widget-h4-style">',

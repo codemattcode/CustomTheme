@@ -29,7 +29,7 @@ get_header();
   
     <?php if (is_active_sidebar('myWidget')) : ?>
     <div class="widget">
-      <?php dynamic_sidebar('myWidget'); ?>
+      <?php dynamic_sidebar('widget1'); ?>
     </div>
     <?php endif; ?>
     
