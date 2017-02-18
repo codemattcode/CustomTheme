@@ -12,7 +12,7 @@ get_header();
     <div class="widget">
       <?php dynamic_sidebar('widget1'); ?>
     </div>
-    <?php endif; ?>
+<?php endif; ?>
 
 
     this is some more text hard coded in the php file

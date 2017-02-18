@@ -82,6 +82,21 @@ function customWidgetsInit() {
 
 add_action('widgets_init', 'customWidgetsInit');
 
+// Add widget locations
+function customWidgetsInit() {
+  register_sidebar( array(
+      'name' => 'My Second Widget',
+      'id' => 'widget2',
+      'before_widget' => '<div class="widget-item">',
+      'after_widget' => '</div>',
+      'before_title' => '<h4 class="widget-h4-style">',
+      'after_title' => '</h4>'
+    ));
+}
+
+add_action('widgets_init', 'customWidgetsInit');
+
+
 
 // Add footer callout section to admin appearance customise screen
 
