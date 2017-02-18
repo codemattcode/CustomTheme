@@ -81,3 +81,77 @@ function customWidgetsInit() {
 }
 
 add_action('widgets_init', 'customWidgetsInit');
+
+
+// Add footer callout section to admin appearance customise screen
+
+function ct_footer_callout($wp_customize) {
+  $wp_customize->add_section('ct-footer-callout-section', array(
+    'title' => 'Footer Callout'
+  ));
+
+
+// begin 'Setting and Control' pairs
+  $wp_customize->add_setting('ct-footer-callout-display', array(
+    'default' => 'No'
+  ));
+
+  $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'ct-footer-callout-display-control', array(
+    'label' => 'Display this section?',
+    'section' => 'ct-footer-callout-section',
+    'settings' => 'ct-footer-callout-display',
+    'type' => 'select',
+    'choices' => array('No' => 'No', 'Yes' => 'Yes')
+  )));
+
+
+
+
+  $wp_customize->add_setting('ct-footer-callout-headline', array(
+    'default' => 'Example Headline Text!'
+  ));
+
+  $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'ct-footer-callout-headline-control', array(
+    'label' => 'Headline',
+    'section' => 'ct-footer-callout-section',
+    'settings' => 'ct-footer-callout-headline'
+  )));
+
+
+
+  $wp_customize->add_setting('ct-footer-callout-text', array(
+    'default' => 'Example text Text!'
+  ));
+
+  $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'ct-footer-callout-text-control', array(
+    'label' => 'Text',
+    'section' => 'ct-footer-callout-section',
+    'settings' => 'ct-footer-callout-text',
+    'type' => 'textarea'
+  )));
+
+
+
+  $wp_customize->add_setting('ct-footer-callout-link');
+
+  $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'ct-footer-callout-link-control', array(
+    'label' => 'Link',
+    'section' => 'ct-footer-callout-section',
+    'settings' => 'ct-footer-callout-link',
+    'type' => 'dropdown-pages'
+  )));
+
+
+
+  $wp_customize->add_setting('ct-footer-callout-image');
+
+  $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'ct-footer-callout-image-control', array(
+    'label' => 'Image',
+    'section' => 'ct-footer-callout-section',
+    'settings' => 'ct-footer-callout-image',
+    'width' => 150,
+    'height' => 100
+  )));
+}
+
+add_action('customize_register', 'ct_footer_callout');
