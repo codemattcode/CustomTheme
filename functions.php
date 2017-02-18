@@ -1,3 +1,5 @@
+
+
 <?php 
   
   function custom_wp_resources() {
@@ -61,6 +63,7 @@ function get_top_ancestor_id() {
 
   // Add post format support
   // add_theme_support('post-formats', array('aside', 'gallery', 'link'));
+
 
 
 
