@@ -71,7 +71,7 @@ add_action('after_setup_theme', 'customTheme_setup');
 // Add widget locations
 function customWidgetsInit() {
   register_sidebar( array(
-      'name' => 'Widget One',
+      'name' => 'My First Widget',
       'id' => 'widget1',
       'before_widget' => '<div class="widget-item">',
       'after_widget' => '</div>',
