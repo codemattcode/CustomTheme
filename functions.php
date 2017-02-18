@@ -83,7 +83,7 @@ function customWidgetsInit() {
 add_action('widgets_init', 'customWidgetsInit');
 
 // Add widget locations
-function customWidgetsInit() {
+function customWidgetsInit2() {
   register_sidebar( array(
       'name' => 'My Second Widget',
       'id' => 'widget2',
@@ -94,7 +94,7 @@ function customWidgetsInit() {
     ));
 }
 
-add_action('widgets_init', 'customWidgetsInit');
+add_action('widgets_init', 'customWidgetsInit2');
 
 
 

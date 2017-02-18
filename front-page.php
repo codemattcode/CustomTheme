@@ -15,6 +15,13 @@ get_header();
 <?php endif; ?>
 
 
+<?php if (is_active_sidebar('widget2')) : ?>
+    <div class="widget">
+      <?php dynamic_sidebar('widget2'); ?>
+    </div>
+<?php endif; ?>
+
+
     this is some more text hard coded in the php file
 
 <?php   
