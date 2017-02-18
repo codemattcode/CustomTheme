@@ -27,9 +27,9 @@ get_header();
  
   <div class="col-6 test">
   
-    <?php if (is_active_sidebar('widget1')) : ?>
+    <?php if (is_active_sidebar('myWidget')) : ?>
     <div class="widget">
-      <?php dynamic_sidebar('widget1'); ?>
+      <?php dynamic_sidebar('myWidget'); ?>
     </div>
     <?php endif; ?>
     
