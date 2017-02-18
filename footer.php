@@ -18,7 +18,7 @@
 
     <?php } ?>
 
-<!-- /cutom content -->
+<!-- /custom content -->
 
     <nav class="site-nav nav-footer">
       
