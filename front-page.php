@@ -21,7 +21,7 @@ get_header();
   endwhile;
 
   else : 
-    echo '<p>Page Not Found</p>';
+    echo '<p>Page Not Found. Please try again</p>';
 
   endif; ?>
 
