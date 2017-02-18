@@ -8,6 +8,15 @@ get_header();
   the_content();
 ?>
 
+<?php if (is_active_sidebar('widget1')) : ?>
+    <div class="widget">
+      <?php dynamic_sidebar('widget1'); ?>
+    </div>
+    <?php endif; ?>
+
+
+    this is some more text hard coded in the php file
+
 <?php   
   endwhile;
 
@@ -15,11 +24,6 @@ get_header();
     echo '<p>Page Not Found</p>';
 
   endif; ?>
-
-
-
-hello world!....
-
 
 
 
