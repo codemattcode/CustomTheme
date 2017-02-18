@@ -197,8 +197,10 @@ h1.template-title {
 }
 
 
-
-
+/* WIDGETS */
+.widget {
+  padding: 50px;
+}
 
 
 /* FOOTER CALLOUT SECTION | CUSTOM EDITABLE THEME CONTENT */
