@@ -1,6 +1,7 @@
 <footer class="site-footer">
 
 <!-- conditional logic whether to display this custom content -->
+
     <?php if (get_theme_mod('ct-footer-callout-display') == "Yes") { ?>
     
         <div class="footer-callout clearfix">
