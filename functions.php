@@ -1,18 +1,21 @@
-
-
 <?php 
   
   function custom_wp_resources() {
-
+// ************************** LOCATE STYLESHEET **********************
     wp_enqueue_style('style-name', get_stylesheet_uri() );
   }
-
 
 add_action( 'wp_enqueue_scripts', 'custom_wp_resources' );
 
 
-// Custom Excerpt wordcount length
 
+
+
+
+
+
+
+// Custom Excerpt wordcount length
 function custom_excerpt_wordcount() {
   return 75;
 }
@@ -22,6 +25,17 @@ add_filter('excerpt_length', 'custom_excerpt_wordcount');
 function customTheme_setup() {
 
 
+
+
+
+
+
+
+
+
+
+
+// ************************** ADD NAVIGATION MENUS *********************
   // Navigation Menus
 register_nav_menus(array(
   'header-nav' => __( 'Header Navigation'),
@@ -52,6 +66,19 @@ function get_top_ancestor_id() {
     return count($pages);
   } 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// ************************** ADD FEATURED IMAGE **********************
   // Add featured image support
   add_theme_support('post-thumbnails');
   // width, height, hard-crop
@@ -61,16 +88,33 @@ function get_top_ancestor_id() {
 }
 
 
+
+
+
+
   // Add post format support
   // add_theme_support('post-formats', array('aside', 'gallery', 'link'));
-
-
 
 
 // initialise theme
 add_action('after_setup_theme', 'customTheme_setup');
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ************************** CUSTOM WIDGETS **********************
 // Add widget locations
 function customWidgetsInit() {
   register_sidebar( array(
@@ -100,6 +144,19 @@ function customWidgetsInit2() {
 add_action('widgets_init', 'customWidgetsInit2');
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// ************************** CUSTOM CONTENT MODULES *******************
 
 // Add footer callout section to admin appearance customise screen
 
